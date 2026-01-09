@@ -33,19 +33,20 @@ cd ros2_ws
 
 Before starting, make sure you have:
 
-- **Linux**: Ubuntu 24.04 (recommended, 22.04 also works)
-- **Windows**: Windows 10/11 with WSL2 installed
-- ROS2 Jazzy installed (follow the `installation.md` guide)
-- Git
-- Basic terminal knowledge
+### **For Linux Users:**
+- Ubuntu 24.04 (recommended)  
+  *Note: Other distributions might not be compatible with ROS2 Jazzy. Check `introduction.md` for distribution compatibility.*
 
-Make sure ROS2 is properly installed and sourced:
+### **For Windows Users:**
+- Windows 10 or 11 with WSL2 installed
+- Follow the WSL2 setup guide in `installation.md`
 
-```bash
-source /opt/ros/jazzy/setup.bash
-```
+### **Common Requirements:**
+- Git installed
 
 If you haven't installed ROS2 yet, follow the instructions in `steps/installation.md`.
+
+
 
 ## Repository Structure
 
