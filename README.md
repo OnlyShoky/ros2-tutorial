@@ -33,16 +33,19 @@ cd ros2_ws
 
 Before starting, make sure you have:
 
-- Ubuntu 24.04 (recommended, other versions may work)
-- ROS2 Jazzy (other ROS2 distributions may work)
+- **Linux**: Ubuntu 24.04 (recommended, 22.04 also works)
+- **Windows**: Windows 10/11 with WSL2 installed
+- ROS2 Jazzy installed (follow the `installation.md` guide)
 - Git
-- Basic Linux terminal knowledge
+- Basic terminal knowledge
 
 Make sure ROS2 is properly installed and sourced:
 
 ```bash
 source /opt/ros/jazzy/setup.bash
-````
+```
+
+If you haven't installed ROS2 yet, follow the instructions in `steps/installation.md`.
 
 ## Repository Structure
 
@@ -75,35 +78,24 @@ steps/
 ```
 
 ### Course Modules
-```text
+```
 steps/
 ├── module_01_workspace.md   # Workspaces & Packages
 ├── module_02_nodes.md       # Nodes & Topics
 ├── module_03_services.md    # Services & Actions
-├── module_04_commands.md    # ROS2 CLI Commands
-├── module_05_urdf.md        # URDF Robot Description
-├── module_06_xacro.md       # Xacro Macros
-├── module_07_gazebo.md      # Gazebo Simulation
-├── module_08_control.md     # ROS2 Control
-├── module_09_sensors.md     # Camera Sensors
-└── module_10_rviz.md        # RViz2 Visualization
+└── ...                      # Additional modules
 ```
 
 ### Reading Order (Important)
 
 **Prerequisites** (complete before any module):
-
-1. **introduction.md** - High-level overview of ROS2 distributions and useful links.
-2. **installation.md** - Installation and environment setup.
+1. **introduction.md** - High-level overview of ROS2
+2. **installation.md** - Environment setup
 
 ⚠️ These two files **must be completed before starting any module**.
 
 **Course Modules** (sequential order):
-
-3. **module_01_workspace.md** - Course officially begins here with workspaces and packages.
-4. **module_02_nodes.md → module_10_rviz.md** - Each module builds on the previous one.
-
-This structure separates prerequisites from course content for clarity.
+Start with **module_01_workspace.md** and progress through modules in order. Each builds on the previous one.
 
 
 ## Getting Started
@@ -114,36 +106,26 @@ You will begin by cloning **Module 1** directly into your home directory.
 
 From your terminal:
 
-### Clone Module 1
+## Getting Started
 
-You can clone a specific module branch using one of the following methods.
-
-#### Option 1 – SSH (recommended)
-
+### If Following the Written Tutorial:
 ```bash
+# Clone the repository
 cd ~
-git clone --branch module_1 git@github.com:onlyshoky/ros2-tutorial.git
-cd ros2-tutorial
+git clone https://github.com/onlyshoky/ros2-tutorial.git ros2_ws
+cd ros2_ws
+
+# Start reading the steps
+cat steps/introduction.md
 ```
 
-#### Option 2 – GitHub CLI
-
+### If Cloning a Specific Module:
 ```bash
+# Clone Module 1 with complete code
 cd ~
-gh repo clone onlyshoky/ros2-tutorial
-cd ros2-tutorial
-git checkout module_1
+git clone --branch module_1 https://github.com/onlyshoky/ros2-tutorial.git ros2_ws
+cd ros2_ws
 ```
-
-#### Option 3 – HTTPS
-
-```bash
-cd ~
-git clone --branch module_1 https://github.com/onlyshoky/ros2-tutorial.git
-cd ros2-tutorial
-```
-
-At this point, you are ready to start **Module 1**.
 
 
 ## Building the ROS2 Workspace
@@ -211,7 +193,7 @@ Repeat this process for each module.
 
 ## Author
 
-Created by **Shoky**
+Created by **Mohamed EL MOURABIT**
 GitHub: [https://github.com/onlyshoky](https://github.com/onlyshoky)
 
 If you find this tutorial useful, feel free to star the repository ⭐
