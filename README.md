@@ -13,6 +13,21 @@ The goal of this project is to help you:
 
 This tutorial is suitable for **beginners to intermediate users** who want a structured way to learn ROS2.
 
+## Important: Workspace Setup
+
+To maintain consistency throughout the tutorial, we recommend cloning this repository directly as `ros2_ws` in your home directory:
+
+```bash
+# Navigate to your home directory
+cd ~
+
+# Clone and rename in one step
+git clone https://github.com/onlyshoky/ros2-tutorial.git ros2_ws
+
+# Navigate to your workspace
+cd ros2_ws
+```
+
 
 ## Prerequisites
 
@@ -31,12 +46,13 @@ source /opt/ros/jazzy/setup.bash
 
 ## Repository Structure
 
-```text
-ros2-tutorial/
+After cloning as `ros2_ws`, your structure will be:
+
+```
+ros2_ws/
 ├── README.md
 ├── steps/        # Step-by-step written tutorial (Markdown)
-├── ros2_ws/      # ROS2 workspace used in this tutorial
-│   └── src/      # ROS2 packages live here
+├── src/          # ROS2 packages live here (initially empty)
 └── cheatsheet/   # Optional cheatsheets you can use
 ```
 
@@ -51,33 +67,43 @@ All the written content for this course is located inside the `steps/` directory
 
 The files are intentionally ordered to guide you through the course in the correct sequence:
 
+### Preliminary Files (Prerequisites)
 ```text
 steps/
-├── 00-introduction.md
-├── 01-installation.md
-│
-├── module_1.md
-├── module_2.md
-├── module_3.md
+├── introduction.md      # ROS2 overview and distributions
+└── installation.md      # Environment setup guide
+```
+
+### Course Modules
+```text
+steps/
+├── module_01_workspace.md   # Workspaces & Packages
+├── module_02_nodes.md       # Nodes & Topics
+├── module_03_services.md    # Services & Actions
+├── module_04_commands.md    # ROS2 CLI Commands
+├── module_05_urdf.md        # URDF Robot Description
+├── module_06_xacro.md       # Xacro Macros
+├── module_07_gazebo.md      # Gazebo Simulation
+├── module_08_control.md     # ROS2 Control
+├── module_09_sensors.md     # Camera Sensors
+└── module_10_rviz.md        # RViz2 Visualization
 ```
 
 ### Reading Order (Important)
 
-1. **00-introduction.md**
-   Provides a high-level overview of the ROS2 distributions and some useful links.
+**Prerequisites** (complete before any module):
 
-2. **01-installation.md**
-   Guides you through the installation and environment setup required before starting the course.
+1. **introduction.md** - High-level overview of ROS2 distributions and useful links.
+2. **installation.md** - Installation and environment setup.
 
 ⚠️ These two files **must be completed before starting any module**.
 
-3. **module_1.md**
-   This is where the course officially begins. It introduces the first ROS2 concepts and practical examples.
+**Course Modules** (sequential order):
 
-4. **module_2.md**, **module_3.md**, …
-   Each module builds on top of the previous one and introduces new ROS2 concepts and packages.
+3. **module_01_workspace.md** - Course officially begins here with workspaces and packages.
+4. **module_02_nodes.md → module_10_rviz.md** - Each module builds on the previous one.
 
-This structure makes it clear what must be read **before** starting the modules and helps avoid common setup issues.
+This structure separates prerequisites from course content for clarity.
 
 
 ## Getting Started
@@ -139,12 +165,12 @@ If the build finishes without errors, you can continue with the tutorial.
 All learning content is located inside the `steps/` directory.
 
 All videos can be found in my **ROS2 Tutorial** YouTube playlist:
-[https://www.youtube.com/playlist?list=YOUR_PLAYLIST_HERE](https://www.youtube.com/playlist?list=YOUR_PLAYLIST_HERE)
+[YouTube Playlist](https://www.youtube.com/playlist?list=PLN65mHMMQSYDTAgwF_k2IJLSSkxMcROEL)
 
 Start here:
 
 ```text
-steps/00-introduction.md
+steps/introduction.md
 ```
 
 Each step:
