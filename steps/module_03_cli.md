@@ -1,5 +1,6 @@
+# Module 03: Exploring ROS2 with CLI Tools 🔍
 
-This module covers the essential **ROS 2 command-line interface (CLI)** tools for inspecting, debugging, and interacting with your robotic system.
+Remember those commands you used to inspect TurtleSim? Now let's master them. The CLI (Command Line Interface) tools are your eyes and ears in the ROS2 world.
 
 ---
 
@@ -568,4 +569,4 @@ In this module, you learned:
 - **Doctor command** to diagnose configuration issues
 - A systematic **debugging workflow** for ROS 2 systems
 
-**Next:** In Module 06, we'll start building our robot arm with **URDF** (Unified Robot Description Format).
+**Next:** In Module 04, you'll write your first ROS2 nodes from scratch!

@@ -1,5 +1,6 @@
+# Module 12: Sensors & Camera 📷
 
-This module covers adding **sensors** to your robot arm, focusing on camera integration for vision capabilities in simulation.
+Robots need to see! This module covers adding **camera sensors** to your robot for vision capabilities.
 
 ---
 
@@ -395,4 +396,4 @@ In this module, you learned:
 - **Subscribe to images** in Python using cv_bridge
 - Other sensor types: **LiDAR** and **IMU**
 
-**Next:** In Module 11, we'll explore **RViz2** in depth for visualization and debugging.
+**Next:** In Module 13, we'll master **RViz2** for visualization and debugging - the final module!

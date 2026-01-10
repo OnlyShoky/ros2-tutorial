@@ -1,5 +1,6 @@
+# Module 09: Xacro - Modular Robot Descriptions 🧩
 
-This module introduces **Xacro (XML Macros)**, a powerful tool that makes URDF files shorter, more readable, and easier to maintain.
+URDF files get long quickly. **Xacro (XML Macros)** makes them shorter, more readable, and easier to maintain.
 
 ---
 
@@ -575,4 +576,4 @@ In this module, you learned:
 | Reusability | None | High |
 | Calculations | Manual | Automatic |
 
-**Next:** In Module 08, we'll integrate our robot arm with **Gazebo** for physics simulation.
+**Next:** In Module 10, we'll integrate our robot arm with **Gazebo** for physics simulation.

@@ -78,13 +78,22 @@ steps/
 └── installation.md      # Environment setup guide
 ```
 
-### Course Modules
+### Course Modules (13 Total)
 ```
 steps/
-├── module_01_workspace.md   # Workspaces & Packages
-├── module_02_nodes.md       # Nodes & Topics
-├── module_03_services.md    # Services & Actions
-└── ...                      # Additional modules
+├── module_01_turtlesim.md   # 🐢 First ROS2 Experience
+├── module_02_workspace.md   # 🏗️ Workspace Setup
+├── module_03_cli.md         # 🔍 CLI Exploration
+├── module_04_first_node.md  # ✍️ Your First Node
+├── module_05_topics.md      # 📡 Topics Deep Dive
+├── module_06_services.md    # 🔄 Services & Actions
+├── module_07_launch.md      # 🚀 Launch Files
+├── module_08_urdf.md        # 🤖 URDF Robot Description
+├── module_09_xacro.md       # 🧩 Xacro Macros
+├── module_10_gazebo.md      # 🌍 Gazebo Simulation
+├── module_11_control.md     # ⚙️ ROS2 Control
+├── module_12_sensors.md     # 📷 Sensors & Camera
+└── module_13_rviz.md        # 👁️ RViz2 Visualization
 ```
 
 ### Reading Order (Important)
@@ -96,7 +105,7 @@ steps/
 ⚠️ These two files **must be completed before starting any module**.
 
 **Course Modules** (sequential order):
-Start with **module_01_workspace.md** and progress through modules in order. Each builds on the previous one.
+Start with **module_01_turtlesim.md** and progress through modules in order. Each builds on the previous one.
 
 
 ## Getting Started

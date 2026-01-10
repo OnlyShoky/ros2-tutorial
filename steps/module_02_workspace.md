@@ -1,5 +1,6 @@
+# Module 02: Setting Up Your Workspace 🏗️
 
-This module covers how to create and organize your ROS 2 code using **workspaces** and **packages**. By the end, you'll have a functional workspace with your first custom package.
+Now that you've seen ROS2 in action with TurtleSim, let's set up your development environment. Think of this as building your workshop before you start creating.
 
 ---
 
@@ -418,4 +419,4 @@ In this module, you learned:
 - Always **source** your workspace after building
 - `rosdep` helps install system dependencies
 
-**Next:** In Module 03, we'll create actual **nodes** that publish and subscribe to topics for our robot arm.
+**Next:** In Module 03, we'll explore how to inspect the ROS2 system with CLI tools (remember those commands from the TurtleSim demo?).

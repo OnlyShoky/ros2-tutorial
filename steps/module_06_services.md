@@ -1,5 +1,6 @@
+# Module 06: Services & Actions 🔄
 
-This module covers two additional communication patterns in ROS 2: **services** for request-response interactions and **actions** for long-running tasks with feedback.
+Topics are great for continuous data streams, but what about request-response interactions? This module covers **services** for quick operations and **actions** for long-running tasks.
 
 ---
 
@@ -563,4 +564,4 @@ In this module, you learned:
 - **Actions** are for long-running, cancellable tasks with feedback
 - Choose the right pattern based on your communication needs
 
-**Next:** In Module 05, we'll explore essential **ROS 2 CLI commands** for debugging and introspection.
+**Next:** In Module 07, we'll learn about **launch files** to start multiple nodes with a single command.

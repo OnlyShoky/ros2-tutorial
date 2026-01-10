@@ -1,5 +1,6 @@
+# Module 11: ROS 2 Control ⚙️
 
-This module covers **ROS 2 Control**, the standard framework for controlling robot hardware (real or simulated) in ROS 2.
+Your robot is in Gazebo - now let's make it move! **ROS 2 Control** is the standard framework for controlling robot hardware.
 
 ---
 
@@ -544,4 +545,4 @@ In this module, you learned:
 - **Joint Trajectory Controller** accepts trajectory goals
 - Use **action clients** to send complex trajectories
 
-**Next:** In Module 10, we'll add a **camera sensor** to the robot arm for vision capabilities.
+**Next:** In Module 12, we'll add a **camera sensor** to the robot arm for vision capabilities.

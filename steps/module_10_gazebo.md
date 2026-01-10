@@ -1,5 +1,6 @@
+# Module 10: Gazebo Simulation 🌍
 
-This module covers integrating your robot arm with **Gazebo**, a powerful physics simulator that works seamlessly with ROS 2.
+Time to bring your robot to life! **Gazebo** is a powerful physics simulator that integrates seamlessly with ROS 2.
 
 ---
 
@@ -476,4 +477,4 @@ In this module, you learned:
 - Write **launch files** that start Gazebo and spawn robots
 - Use **ros_gz_bridge** to connect ROS 2 and Gazebo
 
-**Next:** In Module 09, we'll add **ROS 2 Control** to actually move the robot arm joints in simulation.
+**Next:** In Module 11, we'll add **ROS 2 Control** to actually move the robot arm joints in simulation.

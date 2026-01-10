@@ -1,5 +1,6 @@
+# Module 13: RViz2 Visualization 👁️
 
-This final module covers **RViz2**, the primary visualization and debugging tool for ROS 2 systems.
+The final module! **RViz2** is your primary tool for visualizing and debugging ROS 2 systems.
 
 ---
 
@@ -441,16 +442,19 @@ Congratulations! You've completed the ROS 2 Jazzy tutorial series. You now have 
 
 | Module | Skill Acquired |
 |--------|----------------|
+| 01 | Experience ROS2 with TurtleSim |
 | 02 | Create workspaces and packages |
-| 03 | Build publisher/subscriber nodes |
-| 04 | Implement services for request-response |
-| 05 | Use ROS 2 CLI for debugging |
-| 06 | Write URDF robot descriptions |
-| 07 | Use Xacro for modular robots |
-| 08 | Simulate robots in Gazebo |
-| 09 | Control robots with ros2_control |
-| 10 | Integrate camera sensors |
-| 11 | Visualize and debug with RViz2 |
+| 03 | Use CLI for inspecting ROS2 systems |
+| 04 | Write your first nodes |
+| 05 | Deep dive into topics and messages |
+| 06 | Implement services and actions |
+| 07 | Create launch files |
+| 08 | Write URDF robot descriptions |
+| 09 | Use Xacro for modular robots |
+| 10 | Simulate robots in Gazebo |
+| 11 | Control robots with ros2_control |
+| 12 | Integrate camera sensors |
+| 13 | Visualize and debug with RViz2 |
 
 ### Next Steps
 

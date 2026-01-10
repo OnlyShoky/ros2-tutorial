@@ -1,5 +1,6 @@
+# Module 08: URDF - Describing Your Robot 🤖
 
-This module introduces **URDF (Unified Robot Description Format)**, the standard XML format for describing the physical structure of robots in ROS 2.
+Now it's time to describe a physical robot! **URDF (Unified Robot Description Format)** is the XML standard for defining robot structure in ROS 2.
 
 ---
 
@@ -613,4 +614,4 @@ In this module, you learned:
 - **Launch files** start multiple nodes together
 - **RViz2** visualizes your robot model
 
-**Next:** In Module 07, we'll use **Xacro** to make our URDF files more modular and maintainable.
+**Next:** In Module 09, we'll use **Xacro** to make our URDF files more modular and maintainable.

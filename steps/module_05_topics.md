@@ -1,13 +1,14 @@
+# Module 05: Deep Dive into Topics & Messages 📡
 
-This module introduces the core communication mechanism in ROS 2: **nodes** and **topics**. You'll learn how to create nodes that publish and subscribe to data streams.
+In Module 04, you built your first publisher and subscriber. Now let's understand the underlying concepts more deeply and explore advanced patterns.
 
 ---
 
 ## 🎯 What You Will Learn
 
-- Understand what nodes are in ROS 2
-- Create publisher and subscriber nodes in Python
-- Work with topics for data communication
+- Understand nodes and topics in depth
+- Create advanced publisher and subscriber patterns
+- Work with different message types
 - Use ROS 2 CLI tools to inspect nodes and topics
 - Build a joint position system for the robot arm
 
@@ -500,4 +501,4 @@ In this module, you learned:
 - Configure entry points in `setup.py` for Python packages
 - Use `ros2 node` and `ros2 topic` commands for debugging
 
-**Next:** In Module 04, we'll explore **services** and **actions** for request-response and long-running task communication.
+**Next:** In Module 06, we'll explore **services** and **actions** for request-response and long-running task communication.
