@@ -23,20 +23,7 @@ Welcome to ROS2! In this module, you'll see ROS2 in action before diving into an
 
 ---
 
-## 1️⃣ Install TurtleSim
-
-First, install the turtlesim package:
-
-```bash
-# Make sure ROS2 is sourced
-source /opt/ros/jazzy/setup.bash
-
-# Install turtlesim
-sudo apt update
-sudo apt install ros-jazzy-turtlesim -y
-```
-
-Verify the installation:
+## 1️⃣ Verify TurtleSim installation
 
 ```bash
 ros2 pkg executables turtlesim
@@ -57,7 +44,6 @@ turtlesim turtlesim_node
 Open a terminal and start the turtlesim window:
 
 ```bash
-source /opt/ros/jazzy/setup.bash
 ros2 run turtlesim turtlesim_node
 ```
 
@@ -72,7 +58,6 @@ ros2 run turtlesim turtlesim_node
 Open a **second terminal** (keep the first one running!) and start the keyboard controller:
 
 ```bash
-source /opt/ros/jazzy/setup.bash
 ros2 run turtlesim turtle_teleop_key
 ```
 
@@ -94,8 +79,6 @@ Now use the arrow keys to move the turtle around!
 Open a **third terminal** and peek at the ROS2 system:
 
 ```bash
-source /opt/ros/jazzy/setup.bash
-
 # List all running nodes
 ros2 node list
 ```
