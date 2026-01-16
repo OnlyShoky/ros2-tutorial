@@ -1,0 +1,6 @@
+Invoking command in '/home/shoky/ros2_ws/build/simple_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/shoky/ros2_ws/src/simple_arm_description -DCMAKE_INSTALL_PREFIX=/home/shoky/ros2_ws/install/simple_arm_description
+Invoked command in '/home/shoky/ros2_ws/build/simple_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/shoky/ros2_ws/src/simple_arm_description -DCMAKE_INSTALL_PREFIX=/home/shoky/ros2_ws/install/simple_arm_description
+Invoking command in '/home/shoky/ros2_ws/build/simple_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/shoky/ros2_ws/build/simple_arm_description -- -j8 -l8
+Invoked command in '/home/shoky/ros2_ws/build/simple_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/shoky/ros2_ws/build/simple_arm_description -- -j8 -l8
+Invoking command in '/home/shoky/ros2_ws/build/simple_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/shoky/ros2_ws/build/simple_arm_description
+Invoked command in '/home/shoky/ros2_ws/build/simple_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/shoky/ros2_ws/build/simple_arm_description

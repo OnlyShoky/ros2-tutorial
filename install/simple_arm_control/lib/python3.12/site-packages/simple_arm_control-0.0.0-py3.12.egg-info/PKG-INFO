@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: simple-arm-control
+Version: 0.0.0
+Summary: Control nodes for simple robot arm
+Maintainer: shoky
+Maintainer-email: leozul@hotmail.es
+License: TODO: License declaration
+Provides-Extra: test

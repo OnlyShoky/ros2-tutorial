@@ -1,0 +1,53 @@
+[0.130s] Invoking command in '/home/shoky/ros2_ws/build/simple_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/shoky/ros2_ws/src/simple_arm_description -DCMAKE_INSTALL_PREFIX=/home/shoky/ros2_ws/install/simple_arm_description
+[0.396s] -- The C compiler identification is GNU 13.3.0
+[1.199s] -- The CXX compiler identification is GNU 13.3.0
+[1.959s] -- Detecting C compiler ABI info
+[2.246s] -- Detecting C compiler ABI info - done
+[2.251s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.252s] -- Detecting C compile features
+[2.252s] -- Detecting C compile features - done
+[2.361s] -- Detecting CXX compiler ABI info
+[2.631s] -- Detecting CXX compiler ABI info - done
+[2.636s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.636s] -- Detecting CXX compile features
+[2.636s] -- Detecting CXX compile features - done
+[2.646s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.729s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.816s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.005s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.018s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.036s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.054s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.126s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.129s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.190s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.401s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.514s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.734s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.750s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.821s] -- Added test 'lint_cmake' to check CMake code style
+[3.822s] -- Added test 'xmllint' to check XML markup files
+[3.823s] -- Configuring done (3.7s)
+[3.826s] -- Generating done (0.0s)
+[3.828s] -- Build files have been written to: /home/shoky/ros2_ws/build/simple_arm_description
+[3.833s] Invoked command in '/home/shoky/ros2_ws/build/simple_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/shoky/ros2_ws/src/simple_arm_description -DCMAKE_INSTALL_PREFIX=/home/shoky/ros2_ws/install/simple_arm_description
+[3.835s] Invoking command in '/home/shoky/ros2_ws/build/simple_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/shoky/ros2_ws/build/simple_arm_description -- -j8 -l8
+[3.855s] Invoked command in '/home/shoky/ros2_ws/build/simple_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/shoky/ros2_ws/build/simple_arm_description -- -j8 -l8
+[3.860s] Invoking command in '/home/shoky/ros2_ws/build/simple_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/shoky/ros2_ws/build/simple_arm_description
+[3.863s] -- Install configuration: ""
+[3.864s] -- Installing: /home/shoky/ros2_ws/install/simple_arm_description/share/ament_index/resource_index/package_run_dependencies/simple_arm_description
+[3.864s] -- Installing: /home/shoky/ros2_ws/install/simple_arm_description/share/ament_index/resource_index/parent_prefix_path/simple_arm_description
+[3.864s] -- Installing: /home/shoky/ros2_ws/install/simple_arm_description/share/simple_arm_description/environment/ament_prefix_path.sh
+[3.865s] -- Installing: /home/shoky/ros2_ws/install/simple_arm_description/share/simple_arm_description/environment/ament_prefix_path.dsv
+[3.865s] -- Installing: /home/shoky/ros2_ws/install/simple_arm_description/share/simple_arm_description/environment/path.sh
+[3.865s] -- Installing: /home/shoky/ros2_ws/install/simple_arm_description/share/simple_arm_description/environment/path.dsv
+[3.865s] -- Installing: /home/shoky/ros2_ws/install/simple_arm_description/share/simple_arm_description/local_setup.bash
+[3.865s] -- Installing: /home/shoky/ros2_ws/install/simple_arm_description/share/simple_arm_description/local_setup.sh
+[3.865s] -- Installing: /home/shoky/ros2_ws/install/simple_arm_description/share/simple_arm_description/local_setup.zsh
+[3.866s] -- Installing: /home/shoky/ros2_ws/install/simple_arm_description/share/simple_arm_description/local_setup.dsv
+[3.866s] -- Installing: /home/shoky/ros2_ws/install/simple_arm_description/share/simple_arm_description/package.dsv
+[3.866s] -- Installing: /home/shoky/ros2_ws/install/simple_arm_description/share/ament_index/resource_index/packages/simple_arm_description
+[3.866s] -- Installing: /home/shoky/ros2_ws/install/simple_arm_description/share/simple_arm_description/cmake/simple_arm_descriptionConfig.cmake
+[3.867s] -- Installing: /home/shoky/ros2_ws/install/simple_arm_description/share/simple_arm_description/cmake/simple_arm_descriptionConfig-version.cmake
+[3.867s] -- Installing: /home/shoky/ros2_ws/install/simple_arm_description/share/simple_arm_description/package.xml
+[3.868s] Invoked command in '/home/shoky/ros2_ws/build/simple_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/shoky/ros2_ws/build/simple_arm_description

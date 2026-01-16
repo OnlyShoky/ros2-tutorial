@@ -1,0 +1,15 @@
+/home/shoky/ros2_ws/install/simple_arm_description/share/ament_index/resource_index/package_run_dependencies/simple_arm_description
+/home/shoky/ros2_ws/install/simple_arm_description/share/ament_index/resource_index/parent_prefix_path/simple_arm_description
+/home/shoky/ros2_ws/install/simple_arm_description/share/simple_arm_description/environment/ament_prefix_path.sh
+/home/shoky/ros2_ws/install/simple_arm_description/share/simple_arm_description/environment/ament_prefix_path.dsv
+/home/shoky/ros2_ws/install/simple_arm_description/share/simple_arm_description/environment/path.sh
+/home/shoky/ros2_ws/install/simple_arm_description/share/simple_arm_description/environment/path.dsv
+/home/shoky/ros2_ws/install/simple_arm_description/share/simple_arm_description/local_setup.bash
+/home/shoky/ros2_ws/install/simple_arm_description/share/simple_arm_description/local_setup.sh
+/home/shoky/ros2_ws/install/simple_arm_description/share/simple_arm_description/local_setup.zsh
+/home/shoky/ros2_ws/install/simple_arm_description/share/simple_arm_description/local_setup.dsv
+/home/shoky/ros2_ws/install/simple_arm_description/share/simple_arm_description/package.dsv
+/home/shoky/ros2_ws/install/simple_arm_description/share/ament_index/resource_index/packages/simple_arm_description
+/home/shoky/ros2_ws/install/simple_arm_description/share/simple_arm_description/cmake/simple_arm_descriptionConfig.cmake
+/home/shoky/ros2_ws/install/simple_arm_description/share/simple_arm_description/cmake/simple_arm_descriptionConfig-version.cmake
+/home/shoky/ros2_ws/install/simple_arm_description/share/simple_arm_description/package.xml

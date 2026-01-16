@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/simple_arm_control/simple_arm_control.egg-info
+writing ../../build/simple_arm_control/simple_arm_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/simple_arm_control/simple_arm_control.egg-info/dependency_links.txt
+writing requirements to ../../build/simple_arm_control/simple_arm_control.egg-info/requires.txt
+writing top-level names to ../../build/simple_arm_control/simple_arm_control.egg-info/top_level.txt
+writing manifest file '../../build/simple_arm_control/simple_arm_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/simple_arm_control/simple_arm_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/simple_arm_control/simple_arm_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/shoky/ros2_ws/build/simple_arm_control/build
+creating /home/shoky/ros2_ws/build/simple_arm_control/build/lib
+creating /home/shoky/ros2_ws/build/simple_arm_control/build/lib/simple_arm_control
+copying simple_arm_control/__init__.py -> /home/shoky/ros2_ws/build/simple_arm_control/build/lib/simple_arm_control
+running install
+running install_lib
+creating /home/shoky/ros2_ws/install/simple_arm_control/lib/python3.12/site-packages/simple_arm_control
+copying /home/shoky/ros2_ws/build/simple_arm_control/build/lib/simple_arm_control/__init__.py -> /home/shoky/ros2_ws/install/simple_arm_control/lib/python3.12/site-packages/simple_arm_control
+byte-compiling /home/shoky/ros2_ws/install/simple_arm_control/lib/python3.12/site-packages/simple_arm_control/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/shoky/ros2_ws/install/simple_arm_control/share/ament_index
+creating /home/shoky/ros2_ws/install/simple_arm_control/share/ament_index/resource_index
+creating /home/shoky/ros2_ws/install/simple_arm_control/share/ament_index/resource_index/packages
+copying resource/simple_arm_control -> /home/shoky/ros2_ws/install/simple_arm_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/shoky/ros2_ws/install/simple_arm_control/share/simple_arm_control
+running install_egg_info
+Copying ../../build/simple_arm_control/simple_arm_control.egg-info to /home/shoky/ros2_ws/install/simple_arm_control/lib/python3.12/site-packages/simple_arm_control-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/shoky/ros2_ws/build/simple_arm_control/install.log'

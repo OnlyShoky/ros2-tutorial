@@ -1,0 +1,32 @@
+[0.720s] Invoking command in '/home/shoky/ros2_ws/src/simple_arm_control': PYTHONPATH=/home/shoky/ros2_ws/build/simple_arm_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shoky/ros2_ws/install/simple_arm_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_arm_control build --build-base /home/shoky/ros2_ws/build/simple_arm_control/build install --record /home/shoky/ros2_ws/build/simple_arm_control/install.log --single-version-externally-managed install_data
+[0.845s] running egg_info
+[0.845s] creating ../../build/simple_arm_control/simple_arm_control.egg-info
+[0.853s] writing ../../build/simple_arm_control/simple_arm_control.egg-info/PKG-INFO
+[0.854s] writing dependency_links to ../../build/simple_arm_control/simple_arm_control.egg-info/dependency_links.txt
+[0.854s] writing requirements to ../../build/simple_arm_control/simple_arm_control.egg-info/requires.txt
+[0.854s] writing top-level names to ../../build/simple_arm_control/simple_arm_control.egg-info/top_level.txt
+[0.854s] writing manifest file '../../build/simple_arm_control/simple_arm_control.egg-info/SOURCES.txt'
+[0.869s] reading manifest file '../../build/simple_arm_control/simple_arm_control.egg-info/SOURCES.txt'
+[0.869s] writing manifest file '../../build/simple_arm_control/simple_arm_control.egg-info/SOURCES.txt'
+[0.869s] running build
+[0.869s] running build_py
+[0.870s] creating /home/shoky/ros2_ws/build/simple_arm_control/build
+[0.870s] creating /home/shoky/ros2_ws/build/simple_arm_control/build/lib
+[0.870s] creating /home/shoky/ros2_ws/build/simple_arm_control/build/lib/simple_arm_control
+[0.870s] copying simple_arm_control/__init__.py -> /home/shoky/ros2_ws/build/simple_arm_control/build/lib/simple_arm_control
+[0.870s] running install
+[0.873s] running install_lib
+[0.880s] creating /home/shoky/ros2_ws/install/simple_arm_control/lib/python3.12/site-packages/simple_arm_control
+[0.880s] copying /home/shoky/ros2_ws/build/simple_arm_control/build/lib/simple_arm_control/__init__.py -> /home/shoky/ros2_ws/install/simple_arm_control/lib/python3.12/site-packages/simple_arm_control
+[0.881s] byte-compiling /home/shoky/ros2_ws/install/simple_arm_control/lib/python3.12/site-packages/simple_arm_control/__init__.py to __init__.cpython-312.pyc
+[0.881s] running install_data
+[0.881s] creating /home/shoky/ros2_ws/install/simple_arm_control/share/ament_index
+[0.881s] creating /home/shoky/ros2_ws/install/simple_arm_control/share/ament_index/resource_index
+[0.882s] creating /home/shoky/ros2_ws/install/simple_arm_control/share/ament_index/resource_index/packages
+[0.882s] copying resource/simple_arm_control -> /home/shoky/ros2_ws/install/simple_arm_control/share/ament_index/resource_index/packages
+[0.882s] copying package.xml -> /home/shoky/ros2_ws/install/simple_arm_control/share/simple_arm_control
+[0.882s] running install_egg_info
+[0.889s] Copying ../../build/simple_arm_control/simple_arm_control.egg-info to /home/shoky/ros2_ws/install/simple_arm_control/lib/python3.12/site-packages/simple_arm_control-0.0.0-py3.12.egg-info
+[0.890s] running install_scripts
+[0.948s] writing list of installed files to '/home/shoky/ros2_ws/build/simple_arm_control/install.log'
+[0.964s] Invoked command in '/home/shoky/ros2_ws/src/simple_arm_control' returned '0': PYTHONPATH=/home/shoky/ros2_ws/build/simple_arm_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shoky/ros2_ws/install/simple_arm_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_arm_control build --build-base /home/shoky/ros2_ws/build/simple_arm_control/build install --record /home/shoky/ros2_ws/build/simple_arm_control/install.log --single-version-externally-managed install_data
