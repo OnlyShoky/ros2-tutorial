@@ -14,6 +14,23 @@ Topics are great for continuous data streams, but what about request-response in
 
 ---
 
+## 📝 Prerequisites
+
+Before starting this module, ensure you have:
+
+1. ✅ Completed **Module 02** (Workspace Setup) - created packages
+2. ✅ Completed **Module 05** (Topics) - optional but recommended
+3. ✅ Built your workspace:
+   ```bash
+   cd ~/ros2_ws
+   colcon build
+   source install/setup.bash
+   ```
+
+> 💡 **Note:** This module creates a new interfaces package (`simple_arm_interfaces`) and adds service nodes to `simple_arm_control`. If you skipped earlier modules, the instructions below will guide you through creating these packages.
+
+---
+
 ## 🔄 Communication Patterns Overview
 
 ROS 2 provides three main communication patterns:

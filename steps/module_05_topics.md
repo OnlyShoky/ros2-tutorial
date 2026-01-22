@@ -14,6 +14,27 @@ In Module 04, you built your first publisher and subscriber. Now let's understan
 
 ---
 
+## 📝 Prerequisites
+
+Before starting this module, ensure you have:
+
+1. ✅ Completed **Module 02** (Workspace Setup)
+2. ✅ Created the `simple_arm_control` Python package
+3. ✅ Built your workspace:
+   ```bash
+   cd ~/ros2_ws
+   colcon build
+   source install/setup.bash
+   ```
+
+> 💡 **Note:** This module creates nodes inside the `simple_arm_control` package. If you skipped Module 02, create the package now:
+> ```bash
+> cd ~/ros2_ws/src
+> ros2 pkg create simple_arm_control --build-type ament_python --dependencies rclpy std_msgs
+> ```
+
+---
+
 ## 🤖 Nodes: The Building Blocks
 
 A **node** is an executable process that performs a specific task. In a robotic system, each node typically handles one function:
