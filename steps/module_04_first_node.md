@@ -23,6 +23,21 @@ Make sure you:
 
 ---
 
+# 🚀 Quick File Creation
+
+We'll use **one-command file creation** - just copy the code blocks below and paste them in your terminal. Each will create a complete file automatically!
+
+## ✅ Example Format
+```bash
+cat > filename << 'EOF'
+# File content here
+EOF
+```
+
+Simply copy from `cat` to `EOF` and paste in terminal.
+
+---
+
 ## 1️⃣ Create Your Package
 
 Navigate to your workspace and create a package for your first nodes:
@@ -42,9 +57,10 @@ This creates a package structure ready for Python nodes.
 
 ## 2️⃣ Write Your First Publisher
 
-Create `~/ros2_ws/src/my_first_pkg/my_first_pkg/simple_publisher.py`:
+Create the publisher with this single command:
 
-```python
+```bash
+cat > ~/ros2_ws/src/my_first_pkg/my_first_pkg/simple_publisher.py << 'EOF'
 #!/usr/bin/env python3
 """
 My First ROS2 Publisher!
@@ -112,15 +128,22 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
+EOF
+```
+
+Make it executable:
+```bash
+chmod +x ~/ros2_ws/src/my_first_pkg/my_first_pkg/simple_publisher.py
 ```
 
 ---
 
 ## 3️⃣ Write Your First Subscriber
 
-Create `~/ros2_ws/src/my_first_pkg/my_first_pkg/simple_subscriber.py`:
+Create the subscriber with this single command:
 
-```python
+```bash
+cat > ~/ros2_ws/src/my_first_pkg/my_first_pkg/simple_subscriber.py << 'EOF'
 #!/usr/bin/env python3
 """
 My First ROS2 Subscriber!
@@ -168,15 +191,22 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
+EOF
+```
+
+Make it executable:
+```bash
+chmod +x ~/ros2_ws/src/my_first_pkg/my_first_pkg/simple_subscriber.py
 ```
 
 ---
 
 ## 4️⃣ Register Your Nodes
 
-Edit `~/ros2_ws/src/my_first_pkg/setup.py` to add entry points:
+Update setup.py with this command:
 
-```python
+```bash
+cat > ~/ros2_ws/src/my_first_pkg/setup.py << 'EOF'
 from setuptools import find_packages, setup
 
 package_name = 'my_first_pkg'
@@ -204,6 +234,7 @@ setup(
         ],
     },
 )
+EOF
 ```
 
 ---

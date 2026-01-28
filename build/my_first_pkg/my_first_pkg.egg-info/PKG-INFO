@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: my-first-pkg
+Version: 0.0.1
+Summary: My first ROS2 package
+Maintainer: Your Name
+Maintainer-email: your@email.com
+License: Apache-2.0

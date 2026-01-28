@@ -1,0 +1,41 @@
+[0.650s] Invoking command in '/home/shoky/ros2_ws/src/my_first_pkg': PYTHONPATH=/home/shoky/ros2_ws/build/my_first_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shoky/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_pkg build --build-base /home/shoky/ros2_ws/build/my_first_pkg/build install --record /home/shoky/ros2_ws/build/my_first_pkg/install.log --single-version-externally-managed install_data
+[0.762s] running egg_info
+[0.763s] creating ../../build/my_first_pkg/my_first_pkg.egg-info
+[0.769s] writing ../../build/my_first_pkg/my_first_pkg.egg-info/PKG-INFO
+[0.769s] writing dependency_links to ../../build/my_first_pkg/my_first_pkg.egg-info/dependency_links.txt
+[0.770s] writing entry points to ../../build/my_first_pkg/my_first_pkg.egg-info/entry_points.txt
+[0.770s] writing requirements to ../../build/my_first_pkg/my_first_pkg.egg-info/requires.txt
+[0.770s] writing top-level names to ../../build/my_first_pkg/my_first_pkg.egg-info/top_level.txt
+[0.770s] writing manifest file '../../build/my_first_pkg/my_first_pkg.egg-info/SOURCES.txt'
+[0.784s] reading manifest file '../../build/my_first_pkg/my_first_pkg.egg-info/SOURCES.txt'
+[0.784s] writing manifest file '../../build/my_first_pkg/my_first_pkg.egg-info/SOURCES.txt'
+[0.784s] running build
+[0.784s] running build_py
+[0.785s] creating /home/shoky/ros2_ws/build/my_first_pkg/build
+[0.785s] creating /home/shoky/ros2_ws/build/my_first_pkg/build/lib
+[0.785s] creating /home/shoky/ros2_ws/build/my_first_pkg/build/lib/my_first_pkg
+[0.785s] copying my_first_pkg/__init__.py -> /home/shoky/ros2_ws/build/my_first_pkg/build/lib/my_first_pkg
+[0.785s] copying my_first_pkg/simple_publisher.py -> /home/shoky/ros2_ws/build/my_first_pkg/build/lib/my_first_pkg
+[0.786s] copying my_first_pkg/simple_subscriber.py -> /home/shoky/ros2_ws/build/my_first_pkg/build/lib/my_first_pkg
+[0.786s] running install
+[0.789s] running install_lib
+[0.796s] creating /home/shoky/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg
+[0.796s] copying /home/shoky/ros2_ws/build/my_first_pkg/build/lib/my_first_pkg/__init__.py -> /home/shoky/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg
+[0.796s] copying /home/shoky/ros2_ws/build/my_first_pkg/build/lib/my_first_pkg/simple_publisher.py -> /home/shoky/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg
+[0.796s] copying /home/shoky/ros2_ws/build/my_first_pkg/build/lib/my_first_pkg/simple_subscriber.py -> /home/shoky/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg
+[0.797s] byte-compiling /home/shoky/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg/__init__.py to __init__.cpython-312.pyc
+[0.797s] byte-compiling /home/shoky/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg/simple_publisher.py to simple_publisher.cpython-312.pyc
+[0.798s] byte-compiling /home/shoky/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg/simple_subscriber.py to simple_subscriber.cpython-312.pyc
+[0.798s] running install_data
+[0.798s] creating /home/shoky/ros2_ws/install/my_first_pkg/share/ament_index
+[0.799s] creating /home/shoky/ros2_ws/install/my_first_pkg/share/ament_index/resource_index
+[0.799s] creating /home/shoky/ros2_ws/install/my_first_pkg/share/ament_index/resource_index/packages
+[0.799s] copying resource/my_first_pkg -> /home/shoky/ros2_ws/install/my_first_pkg/share/ament_index/resource_index/packages
+[0.799s] copying package.xml -> /home/shoky/ros2_ws/install/my_first_pkg/share/my_first_pkg
+[0.799s] running install_egg_info
+[0.806s] Copying ../../build/my_first_pkg/my_first_pkg.egg-info to /home/shoky/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg-0.0.1-py3.12.egg-info
+[0.807s] running install_scripts
+[0.859s] Installing simple_publisher script to /home/shoky/ros2_ws/install/my_first_pkg/lib/my_first_pkg
+[0.859s] Installing simple_subscriber script to /home/shoky/ros2_ws/install/my_first_pkg/lib/my_first_pkg
+[0.860s] writing list of installed files to '/home/shoky/ros2_ws/build/my_first_pkg/install.log'
+[0.873s] Invoked command in '/home/shoky/ros2_ws/src/my_first_pkg' returned '0': PYTHONPATH=/home/shoky/ros2_ws/build/my_first_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shoky/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_pkg build --build-base /home/shoky/ros2_ws/build/my_first_pkg/build install --record /home/shoky/ros2_ws/build/my_first_pkg/install.log --single-version-externally-managed install_data
