@@ -544,7 +544,7 @@ After completing this module, your package should look like:
         ├── CMakeLists.txt
         ├── package.xml
         ├── urdf/
-        │   ├── simple_arm.urdf           # Original (Module 06)
+        │   ├── simple_arm.urdf           # Original (Module 08)
         │   ├── simple_arm.urdf.xacro     # NEW: Main Xacro file
         │   ├── materials.xacro           # NEW: Color definitions
         │   ├── properties.xacro          # NEW: Constants
