@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'gripper_server = simple_arm_control.gripper_server:main',
+            'gripper_client = simple_arm_control.gripper_client:main',
         ],
     },
 )

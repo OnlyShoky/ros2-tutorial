@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from simple_arm_interfaces/srv/GripperControl.srv
+// generated code does not contain a copyright notice
+
+
+module simple_arm_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct GripperControl_Request {
+      @verbatim (language="comment", text=
+        "\"open\", \"close\"")
+      string command;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct GripperControl_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

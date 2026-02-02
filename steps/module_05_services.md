@@ -1,4 +1,4 @@
-# Module 05: Services - Request & Response �
+# Module 05: Services - Request & Response
 
 In Module 04, you learned about **Topics**, which are great for continuous data streams like sensor readings. But what if you want to ask a question and get a specific answer? Or trigger a one-time action?
 

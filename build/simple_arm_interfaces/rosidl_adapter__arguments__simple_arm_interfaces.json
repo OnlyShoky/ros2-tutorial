@@ -1,0 +1,6 @@
+{
+  "package_name": "simple_arm_interfaces",
+  "non_idl_tuples": [
+    "/home/shoky/ros2_ws/src/simple_arm_interfaces:srv/GripperControl.srv"
+  ]
+}

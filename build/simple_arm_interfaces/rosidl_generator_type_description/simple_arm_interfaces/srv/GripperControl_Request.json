@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "simple_arm_interfaces/srv/GripperControl_Request",
+      "fields": [
+        {
+          "name": "command",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "simple_arm_interfaces/srv/GripperControl_Request",
+      "hash_string": "RIHS01_655a2eb31877b19548dc0182735749b68fd9deb25e5913e5a4fc0f5921a01c4d"
+    }
+  ]
+}

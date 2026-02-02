@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "simple_arm_interfaces__py",
+		"source" : "/home/shoky/ros2_ws/build/simple_arm_interfaces/simple_arm_interfaces__py"
+	}
+}

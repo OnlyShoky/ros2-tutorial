@@ -1,0 +1,6 @@
+# Request
+string command      # "open", "close"
+---
+# Response
+bool success
+string message
